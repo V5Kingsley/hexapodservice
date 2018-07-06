@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/simplemotion_library/simplemotion.h
+stdio.h
+-
+simplemotion_defs.h
+../src/simplemotion_library/simplemotion_defs.h
+
+../src/simplemotion_library/simplemotion_defs.h
+
+/home/quan/hexapod_service_ws/src/hexapodservice/src/test.cpp
+iostream
+-
+simplemotion.h
+/home/quan/hexapod_service_ws/src/hexapodservice/src/simplemotion.h
+

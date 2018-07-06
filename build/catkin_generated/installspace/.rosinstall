@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/quan/hexapod_service_ws/src/hexapodservice/install/setup.sh

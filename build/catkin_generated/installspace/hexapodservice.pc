@@ -1,0 +1,8 @@
+prefix=/home/quan/hexapod_service_ws/src/hexapodservice/install
+
+Name: hexapodservice
+Description: Description of hexapodservice
+Version: 0.0.0
+Cflags: -I/home/quan/hexapod_service_ws/src/hexapodservice/install/include
+Libs: -L/home/quan/hexapod_service_ws/src/hexapodservice/install/lib -lhexapodservice
+Requires: roscpp rospy std_msgs message_runtime

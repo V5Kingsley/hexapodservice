@@ -1,0 +1,10 @@
+int32 MODE 
+int32 SIMPLEMOTION_MODE
+hexapodservice/legjoints ONELEG
+hexapodservice/legs ALLLEGS
+---
+float64 position_fdbk[4]
+string result
+int32 status
+---
+int32 fdb
